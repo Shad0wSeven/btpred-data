@@ -26,8 +26,8 @@ Install Git and Git LFS, then:
 
 ```sh
 git lfs install
-git clone https://github.com/OWNER/REPOSITORY.git
-cd REPOSITORY
+git clone https://github.com/Shad0wSeven/btpred-data.git
+cd btpred-data
 git lfs pull
 ```
 
