@@ -1,0 +1,572 @@
+[
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-04.zip",
+    "source_url": "https://data.binance.vision/data/spot/monthly/trades/BTCFDUSD/BTCFDUSD-trades-2026-04.zip",
+    "bytes": 52100169,
+    "sha256": "bcf36dd5385ca5552f48287097c722d5560e238c05abf94438a98ddc2093749e",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-04.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-05.zip",
+    "source_url": "https://data.binance.vision/data/spot/monthly/trades/BTCFDUSD/BTCFDUSD-trades-2026-05.zip",
+    "bytes": 34260475,
+    "sha256": "0ded3645499fad154ebc22c4b6d60ed9a8d7ab1fc464902f7a36893754641888",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-05.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-06.zip",
+    "source_url": "https://data.binance.vision/data/spot/monthly/trades/BTCFDUSD/BTCFDUSD-trades-2026-06.zip",
+    "bytes": 46969741,
+    "sha256": "8b20800a957443f7e79f79eb0e7141f088fc95521650304cb607fce7cb46d038",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-06.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-01.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-01.zip",
+    "bytes": 1895394,
+    "sha256": "cf7a99bc6ef4132f3ad4b86c2382bd50a6cfa45c367e4b2cf8942e126f93eef0",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-01.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-02.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-02.zip",
+    "bytes": 1374494,
+    "sha256": "b6c86e2049165bab06751b45424b6e2fbbcbba7efcc1a416bcbf1c61eba0eb0d",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-02.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-03.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-03.zip",
+    "bytes": 1089170,
+    "sha256": "ca449502d386ec0b8d7cbfa543efae9d595be2b27fd743a37796031f35943f0e",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-03.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-04.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-04.zip",
+    "bytes": 505810,
+    "sha256": "5b76de3f46f579ec8494039d3399c0c88df5ff2cb5d0414e77f444fadd2c0787",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-04.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-05.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-05.zip",
+    "bytes": 537353,
+    "sha256": "1d2c05ae63c6d3c19385bea6424a3212a8a6fec5c4824b9efc42d3951c791fdd",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-05.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-06.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-06.zip",
+    "bytes": 1467464,
+    "sha256": "ee7e7a59794a73c899bed3307daf4291966fa6fb02b72ff6c4b97770312fcaa0",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-06.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-07.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-07.zip",
+    "bytes": 1332551,
+    "sha256": "d5b43da041751f49b51238169678726cb71e749fb76a7787f0cddcb6b7ea60b0",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-07.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-08.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-08.zip",
+    "bytes": 1078037,
+    "sha256": "930cc0c23604fa1b8c114f282c0a78fc91af7f9485aa81229b72fbe661ef0b37",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-08.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-09.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-09.zip",
+    "bytes": 1183720,
+    "sha256": "1d1e62dc8b35a1cb475cf44a1dce989d7454bc1ed678cc311a974d0f7ed94088",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-09.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-10.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-10.zip",
+    "bytes": 932080,
+    "sha256": "b25cd839006a2be3218b1b8d7beb477b08eb261c675625667c17fe92343eb94a",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-10.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-11.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-11.zip",
+    "bytes": 374997,
+    "sha256": "3af87c2f0977a16e45773ad145540600e8a2dfe82718b46b5702b01bb329995c",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-11.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-12.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-12.zip",
+    "bytes": 422171,
+    "sha256": "de5247dfe23e7c2fbaff0066630e562cfff41a3c94327bbf61cd2fca3f33d0a8",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-12.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-13.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-13.zip",
+    "bytes": 1254376,
+    "sha256": "15f60a3f0d7570502455a9b4789274684dc6eeea734eed8f92f2c628eb5373e3",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-13.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-14.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-14.zip",
+    "bytes": 1148186,
+    "sha256": "923ab4cfca3f437b952897ed66a5f963500f7861865d3ea45905c5601cc0e5cf",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-14.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-15.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-15.zip",
+    "bytes": 988823,
+    "sha256": "42eb7d047e83ab17491d599e4d29413cdaeb4f20977a4c6453292600d2ce392a",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-15.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-16.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-16.zip",
+    "bytes": 873032,
+    "sha256": "e2092f7295e4026348a3ff048a164ceba09d0ff1c92fdef408a0515cd35f42d9",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-16.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-17.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-17.zip",
+    "bytes": 975275,
+    "sha256": "47b033311573b27f98b876b188eefb9079524586c0cb242b9eec580471776b3f",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-17.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-18.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-18.zip",
+    "bytes": 315829,
+    "sha256": "4fd9b0ba2c151b745a19489f29dc23aa566a39338af840e5a8d7e31860a79877",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-18.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-19.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-19.zip",
+    "bytes": 384138,
+    "sha256": "43e55abc239aa043ee56e3552290a16c18e4d07517893c9092790434e97188da",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-19.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-20.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-20.zip",
+    "bytes": 1250437,
+    "sha256": "826f38e53a7d7ee2971727af14ca758e4c3c69d452359326427145edbeb452f3",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-20.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-21.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-21.zip",
+    "bytes": 743560,
+    "sha256": "3026c6ae417c99772409340d7c20b8812b1e125b8a854e37b599b1b6c2120a10",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-21.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-22.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-22.zip",
+    "bytes": 674402,
+    "sha256": "15a9aa71c82411447cf34659462aace7cf9aea0cad7abac4ea9b69c17d1e503b",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-22.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-23.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-23.zip",
+    "bytes": 644032,
+    "sha256": "6db418cc2c601650ce444005d6db133e0b68f4cb724566e1ea298b2799ad5b09",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-23.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-24.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-24.zip",
+    "bytes": 663506,
+    "sha256": "5fda5b9358117603d138263e48f71a8b274044833cf2b51c68d2bfbdfd48480a",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-24.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-25.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-25.zip",
+    "bytes": 260093,
+    "sha256": "f821f97d21093f03a8f0e76253e55471664ea591d2a275070530b47977962ad3",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-25.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-26.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-26.zip",
+    "bytes": 345383,
+    "sha256": "d0c86bfeaaa0f6af9a84fb60cbd8fd20b40dfb7d1c8c0274ee7a479c2d62235f",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-26.csv"
+    ]
+  },
+  {
+    "path": "granular/spot_raw_trades/BTCFDUSD-trades-2026-07-27.zip",
+    "source_url": "https://data.binance.vision/data/spot/daily/trades/BTCFDUSD/BTCFDUSD-trades-2026-07-27.zip",
+    "bytes": 926241,
+    "sha256": "7ceabe1f1c9f221d9d6060cfa858100270adaaec3f17d739be54d23115568627",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCFDUSD-trades-2026-07-27.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-01.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-01.zip",
+    "bytes": 568918,
+    "sha256": "5c6593d89225bdc41711e84391584b3df5677ddfe7c41e1fbff10bb0f030ac8a",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-01.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-02.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-02.zip",
+    "bytes": 562913,
+    "sha256": "7bd0aa8360c54bf26a2ccf3d4662c03d3ec2ef83a17f83190cd608af67e9c625",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-02.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-03.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-03.zip",
+    "bytes": 560636,
+    "sha256": "16e19b26eeb036ae2ba4fcf17356476de09df54edb6daf1636b602234c53078e",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-03.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-04.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-04.zip",
+    "bytes": 556554,
+    "sha256": "21b0c286816bdc14aa93d2ba56b556d1e2fbbcb4b4dc265898faec1ec720bf59",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-04.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-05.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-05.zip",
+    "bytes": 557719,
+    "sha256": "e6c7e9b8f2c441bf7ff614e8f6b621a2f3729f42e2539f4ad6a0f113f2f24d3d",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-05.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-06.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-06.zip",
+    "bytes": 561756,
+    "sha256": "203914402f8a7c68224de0c7e5ac0bd45c6864904b9d47bbdbc917e3e71a71b7",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-06.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-07.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-07.zip",
+    "bytes": 561608,
+    "sha256": "9fcbb73c17f2f94bac61ba7e2e4f5d45d0d98efee3e18c54a5561798d96fad0b",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-07.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-08.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-08.zip",
+    "bytes": 559167,
+    "sha256": "0173aa347f004609838b2e7f1be6f9534e68b39e27a167e43f33a12ce19c74f4",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-08.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-09.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-09.zip",
+    "bytes": 560997,
+    "sha256": "3b0323c9b0310ab4a440b780dc3c1af54a8d9a1b4fca33ce21d3dc308905c4d1",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-09.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-10.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-10.zip",
+    "bytes": 561338,
+    "sha256": "04805a7f6bd11094da158a59851750b9029fca3aaef9cede9c5c04dd0be5a35d",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-10.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-11.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-11.zip",
+    "bytes": 555386,
+    "sha256": "563dd4dac8a8f6ca319007885b9209940540d14af6c1a35514f5b8e48691a47b",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-11.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-12.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-12.zip",
+    "bytes": 556142,
+    "sha256": "c5664214ec3f18a913e236d09169c8ad393bf3a126f1a64669533a58c2a85ea7",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-12.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-13.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-13.zip",
+    "bytes": 562225,
+    "sha256": "7c676da01aa5709123b3a7909277757f1ebe427d66976c370dd80cff90d58c04",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-13.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-14.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-14.zip",
+    "bytes": 561297,
+    "sha256": "b64b7beb7bb09b67fcbf169fc242087581c08c7b6d111fdb87c868e93a209b63",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-14.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-15.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-15.zip",
+    "bytes": 562858,
+    "sha256": "a9482e99a2b1aae6f863efff86c5d765fb2ce1e27132bf2039a9b512e34279e5",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-15.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-16.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-16.zip",
+    "bytes": 561393,
+    "sha256": "3b9690791f4d9a09170b8de92b41927a31a8a78a9a733de3c550901c07661c55",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-16.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-17.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-17.zip",
+    "bytes": 560895,
+    "sha256": "b887dbc734f2ebbc42138f5bfcce14b8fb73d16bebd6db90d48420c0482323d9",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-17.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-18.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-18.zip",
+    "bytes": 556513,
+    "sha256": "405a0487fd4636eb0cff33cf4f25a2faacd7b1cf4c814f7673f400dc997e93d5",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-18.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-19.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-19.zip",
+    "bytes": 556969,
+    "sha256": "9a012fdc3a4808db201c7f3e98d9b392b669aa6bbf8a3a60babf4efd74c1a9c5",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-19.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-20.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-20.zip",
+    "bytes": 562182,
+    "sha256": "645c6b43dc3e073b9a4db9abfddeb93f52ef44d7ace8c28c3acb2e1038fb3da1",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-20.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-21.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-21.zip",
+    "bytes": 560883,
+    "sha256": "44b4d64a2bf509326107b0d8e41aecbb93dcab7b65475f4924bdfe47158c0e1a",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-21.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-22.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-22.zip",
+    "bytes": 563970,
+    "sha256": "bd1823002180aaf9bb91e2630ba088fc217603a6b0d8e3f0c3b11750423e0aad",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-22.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-23.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-23.zip",
+    "bytes": 563462,
+    "sha256": "a5851edad3e056459415715093d510cef1f0fe358001e1e8f23bca66d3b414ef",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-23.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-24.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-24.zip",
+    "bytes": 562059,
+    "sha256": "25924a8c883961846832aab08e039e317e5ffc47c07ec7be7afdf4dd9f7fde61",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-24.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-25.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-25.zip",
+    "bytes": 556353,
+    "sha256": "7249537d5dfc65a90223a9cfdf4e0ea10722ff342ab2409bc6696ea63ca084ca",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-25.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-26.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-26.zip",
+    "bytes": 556718,
+    "sha256": "0a560426fb2329058bdb80c5f82536560228ad4e3dd44ab0bae194fabe6945c8",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-26.csv"
+    ]
+  },
+  {
+    "path": "granular/futures_um_book_depth/BTCUSDT-bookDepth-2026-07-27.zip",
+    "source_url": "https://data.binance.vision/data/futures/um/daily/bookDepth/BTCUSDT/BTCUSDT-bookDepth-2026-07-27.zip",
+    "bytes": 561264,
+    "sha256": "fb1953d559042c5ead7423a9c7ac6dbd07e095dde0a4d895e3fbfdbe21dbc3e6",
+    "binance_checksum_verified": true,
+    "members": [
+      "BTCUSDT-bookDepth-2026-07-27.csv"
+    ]
+  }
+]

@@ -1,8 +1,9 @@
 # Moving the BTC prediction data through GitHub
 
-This directory is approximately 226 MB. Binary market archives and generated
-CSV/NPZ datasets are configured for Git LFS in `.gitattributes`; source code,
-reports, and documentation remain ordinary Git files.
+The repository contains approximately 398 MB of LFS-managed datasets. Binary
+market archives and generated CSV/NPZ datasets are configured for Git LFS in
+`.gitattributes`; source code, reports, and documentation remain ordinary Git
+files.
 
 ## First upload
 

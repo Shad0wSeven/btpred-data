@@ -28,3 +28,11 @@ To inspect a file without extracting it permanently:
 unzip -p spot/BTCFDUSD-1m-2026-06.zip | head
 unzip -p options/BTCUSDT-EOHSummary-2023-07-01.zip | head
 ```
+
+## Granular trades and depth
+
+`granular/spot_raw_trades/` contains individual BTCFDUSD fills, which are more
+granular than the aggregated trade archives in `ticks/`.
+`granular/futures_um_book_depth/` contains one-second BTCUSDT perpetual
+liquidity curves. See [GRANULAR_DATA.md](GRANULAR_DATA.md) for schemas,
+limitations, reproducible downloads, and the live spot L2 recorder.
