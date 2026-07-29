@@ -6,6 +6,7 @@ source_repo=${script_dir:h}
 publish_repo=${BTPRED_PUBLISH_REPO:-"$source_repo"}
 chunk_seconds=${BTPRED_CHUNK_SECONDS:-10800}
 symbol=${BTPRED_L2_SYMBOL:-BTCFDUSD}
+python_bin=${BTPRED_PYTHON:-python3}
 data_dir="$publish_repo/granular/spot_l2"
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -18,7 +19,7 @@ started=$(date -u +%Y%m%dT%H%M%SZ)
 relative_path="granular/spot_l2/${symbol}-depth-${started}-${chunk_seconds}s.jsonl.gz"
 output_path="$publish_repo/$relative_path"
 
-python3 "$source_repo/scripts/capture_spot_l2.py" \
+"$python_bin" "$source_repo/scripts/capture_spot_l2.py" \
   --symbol "$symbol" \
   --seconds "$chunk_seconds" \
   --output "$output_path"
