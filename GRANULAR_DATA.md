@@ -74,9 +74,10 @@ The LaunchAgent maintains a continuous connection, closes a capture every three
 hours, validates the gzip stream, and pushes the completed file to
 `granular/spot_l2/`. It uses a dedicated lightweight checkout under
 `~/Library/Application Support/btpred-l2/` so it does not interfere with
-interactive work in this repository, plus an isolated Python environment for
-the recorder. The service reconnects with a fresh snapshot after a WebSocket
-sequence gap or network interruption.
+interactive work in this repository, an isolated Python environment, and a
+runtime copy outside macOS's protected Documents directory. The service
+reconnects with a fresh snapshot after a WebSocket sequence gap or network
+interruption.
 
 Inspect its state and logs:
 
