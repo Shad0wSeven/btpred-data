@@ -62,6 +62,34 @@ fresh snapshot. Use `--seconds 0` for a continuous capture.
 The output is intentionally ignored by Git until it has been reviewed. Move a
 completed capture into a tracked dataset directory before committing it.
 
+### Continuous three-hour publishing
+
+On macOS, install the background recorder:
+
+```sh
+scripts/install_l2_launch_agent.sh
+```
+
+The LaunchAgent maintains a continuous connection, closes a capture every three
+hours, validates the gzip stream, and pushes the completed file to
+`granular/spot_l2/`. It uses a dedicated lightweight checkout under
+`~/Library/Application Support/btpred-l2/` so it does not interfere with
+interactive work in this repository. The service reconnects with a fresh
+snapshot after a WebSocket sequence gap or network interruption.
+
+Inspect its state and logs:
+
+```sh
+launchctl print gui/$UID/com.btpred.l2capture
+tail -f "$HOME/Library/Application Support/btpred-l2/runtime/capture.log"
+tail -f "$HOME/Library/Application Support/btpred-l2/runtime/capture.error.log"
+```
+
+Each capture is stored with Git LFS. At approximately the activity rate observed
+in the initial test, expect tens of megabytes per three-hour chunk, although
+market activity can make files materially larger. This consumes GitHub LFS
+storage and download bandwidth continuously.
+
 ## Modeling features
 
 For a 15-minute probability model, align all features strictly before the
