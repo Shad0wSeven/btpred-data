@@ -1,4 +1,4 @@
-# Binance BTC/FDUSD and BTC options data
+# BTC prediction-market training data
 
 Downloaded from the public [Binance data archive](https://data.binance.vision/).
 All files remain compressed ZIP archives exactly as provided by Binance; each ZIP contains one CSV file.
@@ -36,3 +36,9 @@ granular than the aggregated trade archives in `ticks/`.
 `granular/futures_um_book_depth/` contains one-second BTCUSDT perpetual
 liquidity curves. See [GRANULAR_DATA.md](GRANULAR_DATA.md) for schemas,
 limitations, reproducible downloads, and the live spot L2 recorder.
+
+## Kalshi BTC 15-minute ticks
+
+`kalshi_ticks/` contains raw KXBTC15M executions with microsecond timestamps and
+a derived dense one-second panel for every contract. See
+[KALSHI_TICKS.md](KALSHI_TICKS.md) for schemas and limitations.

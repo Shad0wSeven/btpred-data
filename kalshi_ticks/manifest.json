@@ -1,0 +1,48 @@
+{
+  "source": "Kalshi public Trade API",
+  "base_url": "https://external-api.kalshi.com/trade-api/v2",
+  "series": "KXBTC15M",
+  "start_utc_inclusive": "2026-07-27T00:00:00+00:00",
+  "end_utc_exclusive": "2026-07-30T00:00:00+00:00",
+  "market_count": 288,
+  "raw_trade_count": 6054392,
+  "dense_second_rows": 259200,
+  "generated_at_utc": "2026-07-30T23:39:05.426249+00:00",
+  "files": [
+    {
+      "path": "KXBTC15M-1s-2026-07-27.csv.gz",
+      "bytes": 3135541,
+      "sha256": "822570305373d5d0ad29dcb34df8512e747ba5c8831a4a19f692aee9daf67438"
+    },
+    {
+      "path": "KXBTC15M-1s-2026-07-28.csv.gz",
+      "bytes": 3086056,
+      "sha256": "96d9566457cc3048fcd3e65862ef71c3e6a7d1288c89c0a33f013b80125aafaf"
+    },
+    {
+      "path": "KXBTC15M-1s-2026-07-29.csv.gz",
+      "bytes": 3083556,
+      "sha256": "1e71f807bf85564ee0462f8289168d6e47a35cf45337162114e074447c846005"
+    },
+    {
+      "path": "KXBTC15M-markets-2026-07-27_2026-07-30.csv.gz",
+      "bytes": 10144,
+      "sha256": "ad87c7fe3bd60da68a469b8d66ea74398554db3c0d63189f1576c763dadbc7b5"
+    },
+    {
+      "path": "KXBTC15M-trades-2026-07-27.csv.gz",
+      "bytes": 66337198,
+      "sha256": "7b36d75e8d08d2fd1ad6eac86f83d5fe75c00d6d3cbe93ddf878c33a25a538dd"
+    },
+    {
+      "path": "KXBTC15M-trades-2026-07-28.csv.gz",
+      "bytes": 62386811,
+      "sha256": "92c541c2433d3064a5bb6c2ab50a773a75284bfc4d322274eb7ddfae2826a681"
+    },
+    {
+      "path": "KXBTC15M-trades-2026-07-29.csv.gz",
+      "bytes": 60299309,
+      "sha256": "7219fc88d92c271080a583e285144985f1a2435511149a08ded425cf4ba8930f"
+    }
+  ]
+}
