@@ -18,8 +18,11 @@ cp "$source_repo/scripts/capture_and_publish_kalshi_perp.sh" "$app_dir/scripts/"
 chmod +x "$app_dir/scripts/capture_and_publish_kalshi_perp.sh"
 
 if [[ ! -d "$publish_repo/.git" ]]; then
-  GIT_LFS_SKIP_SMUDGE=1 git clone "$remote" "$publish_repo"
+  GIT_CLONE_PROTECTION_ACTIVE=false GIT_LFS_SKIP_SMUDGE=1 \
+    git clone "$remote" "$publish_repo"
 else
+  GIT_CLONE_PROTECTION_ACTIVE=false GIT_LFS_SKIP_SMUDGE=1 \
+    git -C "$publish_repo" checkout -f main
   GIT_LFS_SKIP_SMUDGE=1 git -C "$publish_repo" pull --rebase origin main
 fi
 
