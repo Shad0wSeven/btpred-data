@@ -7,6 +7,12 @@ All files remain compressed ZIP archives exactly as provided by Binance; each ZI
 
 `BTCFDUSD-1m-2026-04.zip` through `BTCFDUSD-1m-2026-06.zip` contain one-minute BTC/FDUSD spot candlesticks for April, May, and June 2026.  The CSV fields are Binance kline fields: open time, open, high, low, close, volume, close time, quote volume, trade count, taker-buy base volume, taker-buy quote volume, and ignore.
 
+## Dense one-second spot bars
+
+`spot_1s/` contains native BTCFDUSD one-second bars from January 1 through
+July 29, 2026, including explicit zero-volume rows for seconds without a trade.
+See [BINANCE_1S.md](BINANCE_1S.md) for integrity guarantees and reproduction.
+
 ## Options (`options/`)
 
 Historical BTC options data is provided for 2023-07-01 through 2023-09-30:
