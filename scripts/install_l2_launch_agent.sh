@@ -29,7 +29,7 @@ fi
 if [[ ! -d "$publish_repo/.git" ]]; then
   GIT_LFS_SKIP_SMUDGE=1 git clone "$remote" "$publish_repo"
 else
-  git -C "$publish_repo" pull --rebase origin main
+  GIT_LFS_SKIP_SMUDGE=1 git -C "$publish_repo" pull --rebase origin main
 fi
 
 "$venv_dir/bin/python" - \

@@ -12,7 +12,7 @@ data_dir="$publish_repo/granular/spot_l2"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 mkdir -p "$data_dir"
-git -C "$publish_repo" pull --rebase origin main
+GIT_LFS_SKIP_SMUDGE=1 git -C "$publish_repo" pull --rebase origin main
 git -C "$publish_repo" push origin main || true
 
 started=$(date -u +%Y%m%dT%H%M%SZ)
@@ -31,7 +31,7 @@ if (( records < 2 )); then
   exit 1
 fi
 
-git -C "$publish_repo" pull --rebase origin main
+GIT_LFS_SKIP_SMUDGE=1 git -C "$publish_repo" pull --rebase origin main
 git -C "$publish_repo" add -- "$relative_path"
 git -C "$publish_repo" commit --only \
   -m "Add ${symbol} L2 capture ${started}" \
