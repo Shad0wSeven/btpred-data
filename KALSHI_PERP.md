@@ -37,6 +37,20 @@ published once per second. Trades retain their finer source timestamps. Kalshi
 also offers a separate authenticated margin WebSocket for every book delta;
 that can be added when a read-only Kalshi key is available.
 
+## Subsecond BRTI estimate
+
+The data includes the official one-second BRTI anchors and finer-time perp
+trades. Create a causal event-time estimate between anchors with:
+
+```sh
+python scripts/estimate_subsecond_brti.py kalshi_perp/KXBTCPERP-....jsonl.gz
+```
+
+The estimator smooths the perp microprice with a 250 ms EMA, estimates the
+perp-to-BRTI basis with a 30-second EMA using only observed one-second anchors,
+and writes one inferred BRTI row for every perp trade or book snapshot. The
+output must be used as `brti_estimated`, not as official BRTI.
+
 ## Continuous publishing
 
 On macOS, install the three-hour capture and GitHub publishing service:

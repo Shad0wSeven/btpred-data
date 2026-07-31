@@ -55,3 +55,9 @@ a derived dense one-second panel for every contract. See
 second, including its directly published, timestamped BRTI `reference_price`,
 perp marks, order book, and every observed execution. See
 [KALSHI_PERP.md](KALSHI_PERP.md) for the schema and reproduction command.
+
+## Live Kalshi BTC 15-minute market
+
+`scripts/capture_kalshi_15m.py` continuously discovers and records the active
+`KXBTC15M` contract, including its BRTI-derived strike, public trade tape, and
+order-book snapshots. See [KALSHI_15M_LIVE.md](KALSHI_15M_LIVE.md).

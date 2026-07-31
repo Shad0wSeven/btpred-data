@@ -4,3 +4,4 @@
 granular/spot_l2/*.jsonl.gz filter=lfs diff=lfs merge=lfs -text
 kalshi_ticks/*.csv.gz filter=lfs diff=lfs merge=lfs -text
 kalshi_perp/*.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+kalshi_15m_live/*.jsonl.gz filter=lfs diff=lfs merge=lfs -text
