@@ -8,6 +8,7 @@ import concurrent.futures
 import gzip
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import deque
@@ -28,12 +29,21 @@ def request_json(path: str, params: dict[str, object] | None = None) -> dict:
         f"{BASE_URL}{path}{query}",
         headers={"User-Agent": "btpred-kalshi-perp-recorder/1.0"},
     )
-    with urllib.request.urlopen(request, timeout=20) as response:
-        return json.load(response)
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as error:
+            if error.code != 429 or attempt == 4:
+                raise
+            retry_after = float(error.headers.get("Retry-After", "1"))
+            time.sleep(max(retry_after, min(10, 0.5 * 2**attempt)))
+    raise AssertionError("unreachable")
 
 
 def parse_time(value: str) -> float:
-    return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+    pattern = "%Y-%m-%dT%H:%M:%S.%fZ" if "." in value else "%Y-%m-%dT%H:%M:%SZ"
+    return datetime.strptime(value, pattern).replace(tzinfo=timezone.utc).timestamp()
 
 
 def scaled_price(value: str | None, contract_size: Decimal) -> str | None:
