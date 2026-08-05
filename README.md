@@ -48,3 +48,16 @@ limitations, reproducible downloads, and the live spot L2 recorder.
 `kalshi_ticks/` contains raw KXBTC15M executions with microsecond timestamps and
 a derived dense one-second panel for every contract. See
 [KALSHI_TICKS.md](KALSHI_TICKS.md) for schemas and limitations.
+
+## Kalshi BTC perpetual and BRTI
+
+`scripts/capture_kalshi_perp.py` records the public `KXBTCPERP` market once per
+second, including its directly published, timestamped BRTI `reference_price`,
+perp marks, order book, and every observed execution. See
+[KALSHI_PERP.md](KALSHI_PERP.md) for the schema and reproduction command.
+
+## Live Kalshi BTC 15-minute market
+
+`scripts/capture_kalshi_15m.py` continuously discovers and records the active
+`KXBTC15M` contract, including its BRTI-derived strike, public trade tape, and
+order-book snapshots. See [KALSHI_15M_LIVE.md](KALSHI_15M_LIVE.md).
